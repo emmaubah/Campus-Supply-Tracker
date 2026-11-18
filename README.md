@@ -25,7 +25,7 @@ Campus Supply Tracker is a simple web application that uses an HTML form and PHP
 
 **Database Name:** `campus_supplies`
 
-**Table Name:** `Supplies`
+**Table Name:** `supplies`
 
 | Column | Data Type |
 |--------|-----------|

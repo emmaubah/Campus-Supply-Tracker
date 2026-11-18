@@ -39,7 +39,7 @@
     }
 
     //Inserting the input form values from a user to the table 'supplies'
-    $query = "INSERT INTO Supplies VALUES (?, ?, ?, ?)";
+    $query = "INSERT INTO supplies VALUES (?, ?, ?, ?)";
     $stmt = $db->prepare($query);
     $stmt->bind_param('sssd', $productid, $productname, $category, $price);
     $stmt->execute();
